@@ -1,0 +1,84 @@
+WELCOME TO TEXT ADVENTURE!
+In this game you can navigate through a house with many rooms including a foyer, a parlor, a library, a kitchen, and a pantry.
+The rooms contain items that you can add to your inventory.
+The library has a ghost that you can talk to.  And in the pantry you have to fight a monster.
+Here are the basic commands:
+  enter [room name] : to enter a specified room
+  map : draws a map of the house
+  quit : to quit the game
+  inventory : lists your inventory
+  items : lists the items in a room
+  take all items : puts all items in the room into your inventory
+  conversation : output a record of your conversation with the ghost
+Now have a great adventure!
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': map
+    ----------------------------------
+    |             Foyer              |
+    |                                |
+    -----   --------------   ---------
+    |  Parlor      |     Library     |
+    |              |        w/ghost  |
+    ----   -----------------   -------
+    |            Kitchen             |
+    |                                |
+    -----  --------------------------
+    |  Pantry      |
+    |    w/monster |
+    ----------------
+
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter pantry
+sorry cant move there
+
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter parlor
+ok you have moved to:  parlor
+
+You are currently in the  parlor
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter kitchen
+ok you have moved to:  kitchen
+
+You are currently in the  kitchen
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': take all items
+Ok, you have added ['knife', 'pot']  to your inventory
+
+You are currently in the  kitchen
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter pantry
+ok you have moved to:  pantry
+Watch out! A monster is attacking you! To slay him you must hit and also hypnotize him (Use the commands 'karate chop' or 'hypnotize'): karate chop
+Good job, you have injured the monster. His health is now 0
+You are hurting the monster but you haven't slayed him. To slay him you must hit and also hypnotize him (Use the commands 'karate chop' or 'hypnotize'): hypnotize
+Good job, you have driven the monster crazy. His sanity is now 0
+There is a monster in this room but you slayed it
+
+You are currently in the  pantry
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter kitchen
+ok you have moved to:  kitchen
+You are currently in the  kitchen
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter library
+ok you have moved to:  library
+Hello, Im a ghost in the library. I am lonely.  I like conversation.  If you really do not want to converse type 'stop' 
+Talk to me Hello Ghost!!!!!!
+That's interesting talk to me some more I bet your name is Caspar!!!!
+Talk to me stop
+
+You are currently in the  library
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': enter foyer
+ok you have moved to:  foyer
+
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': inventory
+Your inventory: ['courage', 'knife', 'pot']
+
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': conversation
+Here is the conversation you had with the ghost: 
+Ghost: Talk to me 
+Adventurer: Hello Ghost!!!!!!
+Ghost: That's interesting talk to me some more 
+Adventurer: I bet your name is Caspar!!!!
+
+You are currently in the  foyer
+Enter a command like 'enter [room name]', 'inventory', 'take all items', 'take [item]', 'items', 'conversation', 'map', 'quit': quit
+Your adventure has ended!

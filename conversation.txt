@@ -1,0 +1,6 @@
+
+Ghost: Hello, Im a ghost in the library. I am lonely.  I like conversation.  If you really do not want to converse type 'stop'
+Will you talk to me? : This is the next
+
+Ghost: That's interesting talk to me some more?: 
+Adventurer: stop
